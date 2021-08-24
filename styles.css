@@ -401,6 +401,7 @@ clearfix::before {
   border-radius: 0.5rem;
   margin: 2rem 0;
   box-shadow: 3px 3px 17px -9px rgba(0, 0, 0, 0.75);
+  transition: var(--mainTransition);
 }
 
 .service-img {
@@ -425,6 +426,7 @@ clearfix::before {
   transform: translate(-50%, 50%);
   border: 0.3rem solid var(--primaryColor);
   box-shadow: 3px 3px 17px -9px rgba(0, 0, 0, 0.75);
+  transition: var(--mainTransition);
 }
 
 .service-info {
@@ -443,7 +445,6 @@ clearfix::before {
 .service-card:hover {
   -webkit-box-shadow: 5px 4px 13px 0px rgba(0, 0, 0, 0.72);
   box-shadow: 5px 4px 13px 0px rgba(0, 0, 0, 0.72);
-  transition: var(--mainTransition);
 }
 
 .service-card:hover .service-icon {
